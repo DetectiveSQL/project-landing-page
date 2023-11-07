@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container{
+    border: 5px solid black;
+    height: 50vh;
+    display: flex;
+}
+
+.header-top{
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+
+.header-logo{
+    width: 25%;
+    height: 100%;
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+.header-links{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    padding-right: 200px;
+    padding-top: 30px;
+}
+
+
+
+
+.main-container{
+    border: 5px solid black;
+}
+
+.footer-container{
+    border: 5px solid black
+}
