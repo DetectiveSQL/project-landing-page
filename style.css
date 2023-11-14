@@ -12,7 +12,13 @@
 
 .display-flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.header-flex-props{
+    flex-direction: column; 
+    padding-left: 200px; 
+    padding-right: 200px;
 }
 
 .header-padding{
@@ -51,7 +57,26 @@
     font-size: 15px;
     font-weight: bold;
     color: #f9faf8;
-    border-radius: 5px;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+}
+
+.hero-main{
+    flex-direction: column; 
+    flex: 1;
+    gap: 10px; 
+    margin-right: 100px; 
+    padding-right: 100px;
+}
+
+.img-placeholder{
+    flex-direction: column; 
+    flex: 1; 
+    color: white; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: grey;
 }
 
 .main-container{
