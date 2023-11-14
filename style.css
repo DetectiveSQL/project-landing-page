@@ -15,11 +15,15 @@
     justify-content: space-around;
 }
 
+.header-padding{
+    padding-top: 20px;
+}
+
 .hero-footer-color{
     background-color: #1f2937;
 }
 
-.hero-sec-links-color{
+.hero-sec-links{
     font-size: 18px;
     color: #e5e7eb;
 }
