@@ -17,7 +17,7 @@
 
 .header-padding{
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
 }
 
 .hero-footer-color{
@@ -38,12 +38,20 @@
 .header-logo-text{
     font-size: 24px;
     color: #f9faf8;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .header-link-text{
     gap: 10px;
     font-weight: lighter;
+}
+
+.button-props{
+    background-color: #3882f6;
+    font-size: 15px;
+    font-weight: bold;
+    color: #f9faf8;
+    border-radius: 5px;
 }
 
 .main-container{
