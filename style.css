@@ -149,8 +149,12 @@
     gap: 150px;
 }
 
-
-
 .footer-container{
-    border: 5px solid black
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content{
+    margin: 50px 0 50px 0;
 }
