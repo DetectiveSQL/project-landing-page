@@ -54,7 +54,7 @@
 
 .button-props{
     background-color: #3882f6;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     color: #f9faf8;
     border-radius: 7px;
@@ -129,8 +129,27 @@
     display: flex;
     color: black;
     align-self: flex-end;
-    margin-right: 550px;
+    margin-right: 350px;
 }
+
+.section-CTA{
+    display: flex;
+    justify-content: center;
+}
+
+.subsection-blue{
+    background-color: #3882f6;
+    height: 170px;
+    width: 1400px;
+    margin: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+
 
 .footer-container{
     border: 5px solid black
